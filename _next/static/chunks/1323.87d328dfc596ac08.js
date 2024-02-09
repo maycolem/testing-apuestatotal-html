@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[1323],{41323:function(n,e,t){t.r(e),t.d(e,{AltenarWidgets:function(){return u}});var r=t(85893),u=function(){return(0,r.jsx)(r.Fragment,{})}}}]);
