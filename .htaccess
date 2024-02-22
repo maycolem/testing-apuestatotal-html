@@ -2,6 +2,7 @@ RewriteEngine On
 # Redirige todas las solicitudes al index.html excepto para los recursos estáticos
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^ index.html [QSA,L]
+RewriteRule ^(.*)$ index.html [QSA,L]
+
 
 ErrorDocument 404 /404.html
